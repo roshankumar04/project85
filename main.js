@@ -97,9 +97,9 @@ function down()
 function left()
 {
 	//Define function to move the car left side
-	if(greencar_y >=0)
+	if(greencar_x >=0)
 	{
-      greencar_y = greencar_y -10;
+      greencar_x = greencar_x-10;
 	  console.log("when left arrow is pressed, x = " + greencar_x + " | y = " +greencar_y);
 	  uploadBackground();
 	  uploadgreencar();
@@ -109,9 +109,9 @@ function left()
 function right()
 {
 	//Define function to move the car right side
-	if(greencar_y >=0)
+	if(greencar_x<=600)
 	{
-      greencar_y = greencar_y +10;
+      greencar_x = greencar_x +10;
 	  console.log("when right arrow is pressed, x = " + greencar_x + " | y = " +greencar_y);
 	  uploadBackground();
 	  uploadgreencar();
