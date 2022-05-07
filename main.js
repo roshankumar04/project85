@@ -85,7 +85,7 @@ function up()
 function down()
 {
 	//Define function to move the car downward
-	if(greencar_y >=0)
+	if(greencar_y <=500)
 	{
       greencar_y = greencar_y +10;
 	  console.log("when down arrow is pressed, x = " + greencar_x + " | y = " +greencar_y);
